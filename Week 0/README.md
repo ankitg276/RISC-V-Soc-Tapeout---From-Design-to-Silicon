@@ -36,33 +36,43 @@ Use VirtualBox to run a reproducible Ubuntu VM environment on your host machine 
 
 ## Installation instructions (commands)
 
-### 1) VirtualBox
+### 🔧 VirtualBox
 Download and install VirtualBox from:
 https://www.virtualbox.org/wiki/Downloads
 
 ---
 
-### 2) Yosys (build from source)
-bash
-sudo apt-get update
+### 🔧 Yosys Installation  
+```
+# Update system
+sudo apt-get update  
+
+# Clone the Yosys repository
 git clone https://github.com/YosysHQ/yosys.git
-cd yosys
-# ensure build tools available
-sudo apt install -y make
-sudo apt-get install -y build-essential clang bison flex \
- libreadline-dev gawk tcl-dev libffi-dev git \
- graphviz xdot pkg-config python3 libboost-system-dev \
- libboost-python-dev libboost-filesystem-dev zlib1g-dev
+cd yosys  
+
+# Install 'make' if not already installed
+sudo apt install make  
+
+# Install required dependencies
+sudo apt-get install build-essential clang bison flex \
+    libreadline-dev gawk tcl-dev libffi-dev git \
+    graphviz xdot pkg-config python3 libboost-system-dev \
+    libboost-python-dev libboost-filesystem-dev zlib1g-dev  
+
+# Configure and build Yosys
 make config-gcc
-make
+make  
+
+# Install Yosys
 sudo make install
-`
+```
 
 *Verify Yosys installation*
 
-bash
+```
 yosys -V
-
+```
 
 *Yosys installed proof:*
 
@@ -70,18 +80,21 @@ yosys -V
 
 ---
 
-### 3) Icarus Verilog (iverilog)
+### 🔧 Icarus Verilog Installation  
+```
+# Update system
+sudo apt-get update  
 
-bash
-sudo apt-get update
-sudo apt-get install -y iverilog
+# Install Icarus Verilog
+sudo apt-get install iverilog
+```
 
 
 *Verify Icarus Verilog*
 
-bash
+```
 iverilog -v
-
+```
 
 *Icarus Verilog installed proof:*
 
@@ -89,18 +102,20 @@ iverilog -v
 
 ---
 
-### 4) GTKWave
+### 🔧 GTKWave Installation  
+```
+# Update system
+sudo apt-get update  
 
-bash
-sudo apt-get update
-sudo apt install -y gtkwave
-
+# Install GTKWave
+sudo apt install gtkwave
+```
 
 *Verify GTKWave*
 
-bash
+```
 gtkwave --version
-
+```
 
 *GTKWave installed proof:*
 
