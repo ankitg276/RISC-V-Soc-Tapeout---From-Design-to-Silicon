@@ -49,15 +49,6 @@ This repository is my public log as a program participant: design notes, artifac
 
 ---
 
-## Repo niceties (how I present work)
-
-* A prominent banner image at `assets/banner.png` (or `assets/banner.gif`) showing a layout mockup or waveform snippet to make the project page visually striking.
-* A short project blurb in the GitHub description:
-  *“From Verilog to GDS: Weekly lab progress for the India RISC-V Tapeout Program — documenting RTL → Synthesis → Physical Design → Tapeout using open-source EDA.”*
-* Lightweight badges for environment setup, smoke tests (sim/synth), and license status.
-
----
-
 ## Contact & attribution
 
 **Maintainer / GitHub owner:** `Ankit Kumar Gupta` — `@ankitg276`
@@ -71,7 +62,7 @@ This repository and the materials I publish here are licensed under the **MIT Li
 
 ---
 
-**Quick copy (for repo description):**
+**Repo Description:**
 From Verilog to GDS: Weekly lab progress for the India RISC-V Tapeout Program — documenting RTL → Synthesis → Physical Design → Tapeout using open-source EDA.
 
 [1]: https://iitgn.ac.in/?utm_source=chatgpt.com "IIT Gandhinagar | Home"
