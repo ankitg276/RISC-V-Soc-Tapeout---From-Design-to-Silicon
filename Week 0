@@ -77,7 +77,7 @@ yosys -V
 
 **Proof image (example):**
 
-![Yosys installed proof](../assets/yosys_installed.png)
+![Yosys installed proof](yosys_installed.jpg)
 
 ---
 
@@ -96,7 +96,7 @@ iverilog -v
 
 **Proof image (example):**
 
-![Icarus Verilog installed proof](../assets/iverilog_installed.png)
+![Icarus Verilog installed proof](iverilog_installed.jpg)
 
 ---
 
@@ -115,7 +115,7 @@ gtkwave --version
 
 **Proof image (example):**
 
-![GTKWave installed proof](../assets/gtkwave_installed.png)
+![GTKWave installed proof](gtkwave_installed.jpg)
 
 ---
 
