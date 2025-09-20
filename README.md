@@ -60,7 +60,7 @@ This repository is my public log as a program participant: design notes, artifac
 
 ## Contact & attribution
 
-**Maintainer / GitHub owner:** `<Your Name>` — `@<your-github-username>`
+**Maintainer / GitHub owner:** `Ankit Kumar Gupta` — `@ankitg276`
 **Program:** India RISC-V Tapeout Program — in collaboration with IITGN, VLSI System Design, IESA, VSI, RISC-V International and DIR-V.
 
 ---
