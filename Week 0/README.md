@@ -71,7 +71,10 @@ sudo make install
 *Verify Yosys installation*
 
 ```
-yosys -V
+yosys
+
+# After this for getting Proof, type :
+License
 ```
 
 *Yosys installed proof:*
@@ -93,7 +96,7 @@ sudo apt-get install iverilog
 *Verify Icarus Verilog*
 
 ```
-iverilog -v
+iverilog 
 ```
 
 *Icarus Verilog installed proof:*
@@ -114,7 +117,7 @@ sudo apt install gtkwave
 *Verify GTKWave*
 
 ```
-gtkwave --version
+gtkwave 
 ```
 
 *GTKWave installed proof:*
