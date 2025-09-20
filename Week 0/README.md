@@ -64,7 +64,7 @@ bash
 yosys -V
 
 
-*Proof image (example):*
+*Yosys installed proof:*
 
 ![Yosys installed proof](yosys_installed.jpg)
 
@@ -83,7 +83,7 @@ bash
 iverilog -v
 
 
-*Proof image (example):*
+*Icarus Verilog installed proof:*
 
 ![Icarus Verilog installed proof](iverilog_installed.jpg)
 
@@ -102,7 +102,7 @@ bash
 gtkwave --version
 
 
-*Proof image (example):*
+*GTKWave installed proof:*
 
 ![GTKWave installed proof](gtkwave_installed.jpg)
 
