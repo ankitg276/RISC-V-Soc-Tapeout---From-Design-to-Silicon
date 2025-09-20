@@ -1,0 +1,13 @@
+India Risc-V program/gtkwave_installed.jpg India Risc-V program/iverilog_installed.jpg India Risc-V program/yosys_installed.jpg
+# resize to max width 1200px and recompress
+convert assets/gtkwave_installed.jpg -resize 1200x -strip -quality 85 assets/gtkwave_installed.jpg
+# optionally convert to optimized JPG
+optipng assets/gtkwave_installed.jpg
+# resize to max width 1200px and recompress
+convert assets/iverilog_installed.jpg -resize 1200x -strip -quality 85 assets/iverilog_installed.jpg
+# optionally convert to optimized JPG
+optipng assets/iverilog_installed.jpg
+# resize to max width 1200px and recompress
+convert assets/yosys_installed.jpg -resize 1200x -strip -quality 85 assets/yosys_installed.jpg
+# optionally convert to optimized JPG
+optipng assets/yosys_installed.jpg
