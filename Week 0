@@ -1,18 +1,7 @@
 # 🚀 Week 0 — Tool Installation 
-![Project banner](../assets/banner.png)
-
-[![Smoke Tests](https://github.com/<username>/<repo>/actions/workflows/smoke.yml/badge.svg)](https://github.com/<username>/<repo>/actions)  
-[Program sign-up & weekly task portal (VSD-IAT)](https://vsdiat.vlsisystemdesign.com/sign-up) · [Reference doc / example repo](https://github.com/spatha0011/spatha_vsd-hdp/tree/main/Day0)
-
 ---
 
 > **Week 0 objective:** Prepare the dev environment for the India RISC-V Tapeout Program — install the required EDA toolchain on an Ubuntu VM and provide visual proof (terminal screenshots) for each installation.
-
----
-
-## ✨ Why this README is here
-This file is a ready-to-paste, eye-catching Week-0 deliverable you can commit straight into `week-00/README.md`.  
-It lists recommended VM specs, provides concise, friendly descriptions of each tool, step-by-step install/verify commands, and tells you how to capture and store proof screenshots.
 
 ---
 
