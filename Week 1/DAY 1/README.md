@@ -31,7 +31,7 @@ Key concepts covered today:
 
 Below are the reference figures for Day 1 (waveform screenshots and the simulation flow diagram) — add them to your report or use them while following the steps.
 
-![Icarus Verilog Simulation Flow]([Icarus Verilog Simulation Flow.jpg]
+![Icarus Verilog Simulation Flow](Icarus Verilog Simulation Flow.jpg)
 
 ![GTKWave waveform view](GTKWave waveform view.jpg)
 ![schematic_symbol_2-to-1_mux](schematic_symbol_2-to-1_mux.jpg)
