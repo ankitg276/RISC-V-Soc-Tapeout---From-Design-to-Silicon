@@ -31,7 +31,7 @@ Key concepts covered today:
 
 Below are the reference figures for Day 1 (waveform screenshots and the simulation flow diagram) — add them to your report or use them while following the steps.
 
-![Icarus Verilog Simulation Flow](Icarus Verilog Simulation Flow.jpg)
+![Icarus Verilog Simulation Flow]([Icarus Verilog Simulation Flow.jpg](https://github.com/ankitg276/RISC-V-Soc-Tapeout---From-Design-to-Silicon/blob/main/Week%201/DAY%201/GTKWave%20waveform%20view.jpg))
 
 ![GTKWave waveform view](GTKWave waveform view.jpg)
 
