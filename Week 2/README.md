@@ -32,7 +32,6 @@ I dove headfirst into the "Fundamentals of SoC Design" notes from this awesome r
 ### My Key Takeaways: A Personal Reflection  
 Through this theory dive, I transformed from "SoC? What's that?" to confidently explaining how these chips power our world. BabySoC fits perfectly into my learning path—it's hands-on, builds confidence, and preps me for advanced stages like RTL design. I'm hooked on how SoCs solve real-world problems, like making devices smarter and greener. If you're starting out, trust me: this is where the magic begins! 📚✨
 
-*(Deliverable: This 1-2 page write-up summarizes my understanding—feel free to check it out on my GitHub!)*
 
 ## 🛠️ Part 2: Labs – Hands-On Magic with Functional Modeling
 
@@ -91,13 +90,13 @@ If you want to automate, the repo has a Makefile. I could have run `make pre_syn
 ### Lab Proof: Terminal Magic and Waveform Wonders
 Here's the terminal output from my compilation run (Step 2). Notice the terms agreement and the successful generation of Verilog files—no errors, all green!  
 
-![Terminal Compilation Output](terminal-compilation.png)  
+![Terminal Compilation Output](Terminal_Compilation_Output.jpg)  
 
 This shows SandPiper(TM) in action, producing "out/rvmyth.v" and "out/rvmyth_gen.v". Licensed under Redwood EDA—felt professional!  
 
 Now, the star of the show: My GTKWave screenshot with key signals highlighted.  
 
-![GTKWave Waveform](gtkwave-screenshot.png)  
+![GTKWave Waveform](GTK_OUTPUT.jpg)  
 
 #### My Observations and "Whoa!" Moments:  
 - **Reset Operation:** At the start, the 'reset' signal spikes high, resetting everything to zero—like hitting the refresh button on a glitchy app. Post-reset, the core kicks off smoothly. I observed how this prevents weird states, ensuring reliable boot-up. Super crucial for real chips!  
@@ -117,7 +116,3 @@ Short Explanations Per Screenshot:
 
 ## 🎉 Wrapping It Up: My SoC Awakening  
 By Week 2's end, I can confidently explain SoC theory (it's all about integration for efficiency!) and demo BabySoC modeling with waveforms. This task sparked my excitement for RISC-V tapeout—observations like flawless dataflow boosted my confidence. Can't wait for more! If you're following along, clone the repo and try it—it's addictive. 🚀  
-
-Questions? Hit me up on GitHub. Let's build the future of chips together! 💻  
-
-*Last updated: October 04, 2025*
